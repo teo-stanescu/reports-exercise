@@ -1,6 +1,6 @@
 import { Layout } from "antd";
 import AppRouter from "./appRouter";
-import "./sidebar.css";
+import "./nav.css";
 
 const { Header, Content } = Layout;
 

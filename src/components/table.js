@@ -81,7 +81,6 @@ const ReportTable = (props) => {
   }, [data, detectHeader]);
 
   const handleView = (id) => {
-    console.log({ id, selected });
     if (!selected[id]) {
       notification.open({
         message: "Watch out!",
